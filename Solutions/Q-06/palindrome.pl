@@ -2,8 +2,6 @@
 
 % 6. Write a Prolog program to check if a list is a palindrome.
 
-
-
 palindrome(List) :-
   reverse(List, List).          % Check if `List` is equal to its reversed list.
 
